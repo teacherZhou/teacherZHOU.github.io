@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; list-style-type: none; text-decoration: none; color: #333; }
+
+body { background-color: #e7eff4; }
+
+body .mainBox { width: 800px; margin: auto; }
+
+body .mainBox .logo { margin-top: 3vh; text-align: center; }
+
+body .mainBox .search { position: relative; overflow: hidden; margin-bottom: 6vh; }
+
+body .mainBox .search input { padding-left: 12px; width: 100%; height: 48px; line-height: 48px; font-size: 16px; border: 0; border-radius: 3px; }
+
+body .mainBox .search button { position: absolute; top: 0; right: 0; background: #008b5f; border: 0; width: 48px; height: 48px; line-height: 48px; border-radius: 0 3px 3px 0; cursor: pointer; }
+
+body .mainBox .search button i { color: #fff; font-size: 18px; }
+
+body .mainBox .search button i::before { content: "Go"; }
+
+body .mainBox ul > li { margin-bottom: 20px; padding: 1px; border: 0 solid #c5d2db; border-radius: 8px; background: #fff; box-shadow: 0 1px 2px rgba(31, 35, 37, 0.08); }
+
+body .mainBox ul > li strong { padding: 12px 24px; display: block; font-size: 18px; color: #518193; border-bottom: 1px solid #e7eff4; border-radius: 4px 4px 0 0; }
+
+body .mainBox ul > li ol { overflow: hidden; }
+
+body .mainBox ul > li li { float: left; width: 25%; padding: 15px 0; }
+
+body .mainBox ul > li li a { padding: 15px 15px 13px; overflow: hidden; border-radius: 5px; color: #00ad35; }
